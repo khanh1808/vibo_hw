@@ -1,0 +1,447 @@
+@font-face {
+  font-family: font1;
+  src: url(../vibo_project/fonts/myriadpro-bold.otf);
+}
+@font-face {
+  font-family: font2;
+  src: url(../vibo_project/fonts/WorkSans-Bold.otf);
+}
+@font-face {
+  font-family: font3;
+  src: url(../vibo_project/fonts/myriadpro-light.otf);
+}
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	outline: none;
+}
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0px auto;
+}
+#hero {
+	padding-top: 48px;
+	height: 1000px;
+	background-color: #0ed0f0; 
+	background-image: url(../vibo_project/wave.png), url(../vibo_project/smartphone.png), url(../vibo_project/bg1.png);
+	background-repeat: no-repeat , no-repeat , no-repeat;
+	background-size: 100%, auto, cover;
+	background-position: center bottom,center bottom -91px, center bottom;
+}
+header {
+	height: 48px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+header img {
+	display: inline-block;
+}
+header ul li {
+	display: inline-block;
+	margin: 0px 14px;
+}
+header ul li:last-child {
+	margin-right: 0px;
+}
+header ul li a {
+	color: white;
+	font-size: 16px;
+	font-family: font1, sans-serif;
+}
+#hero h1 {
+	width: 545px;
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	line-height: 60px;
+	font-family: font2, sans-serif;
+	margin: 0px auto;
+	margin-top: 132px;
+}
+#hero h2 {
+	width: 545px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	line-height: 27px;
+	font-family: font3, sans-serif;
+	margin: 0px auto;
+	font-weight: normal;
+	margin-top: 13px;
+}
+#action {
+	text-align: center;
+	padding: 0px 13px;
+}
+#action a {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	padding: 0px 32px;
+	margin-top: 44px;
+}
+#action a:first-child {
+	background-color: white;
+	color: #233148;
+	margin-right: 13px;
+}
+#action a:last-child {
+	background-color: #0bc2f1;
+	border: 1px solid white;
+	color: white;
+	margin-left: 13px;
+}
+#features {
+	background-color: #fafafc;
+}
+#features .container {
+	display: flex;
+	justify-content: space-between;
+	height: 1095px;
+}
+#features .container > div > img {
+	margin-top: 290px;
+	margin-left: 110px;
+}
+#features_list{
+	position: relative;
+}
+#features_list div {
+	background-color: white;
+	width: 272px;
+	height: 323px;
+	border-radius: 5px;
+	box-shadow: 0px 6px 9px rgba(35, 39, 47, 0.1);
+	margin-bottom: 20px;
+	position: absolute;
+}
+#features_list div:nth-child(1) {
+	right: 370px;
+	top: 116px;
+}
+#features_list div:nth-child(2) {
+	right: 39px;
+	top: 211px;
+}
+#features_list div:nth-child(3) {
+	right: 438px;
+	top: 509px;
+}
+#features_list div:nth-child(4) {
+	right: 87px;
+	top: 632px;
+}
+#features_list div img {
+	display: block;
+	margin: 0px auto;
+	margin-top: 60px;
+}
+#features_list div h3 {
+	font-size: 14px;
+	color: #233148;
+	line-height: 28px;
+	font-family: font1, sans-serif;
+	text-align: center;
+	margin-top: 28px;
+}
+#features_list div p {
+	font-size: 14px;
+	color: #6a6d89;
+	line-height: 28px;
+	font-family: font3, sans-serif;
+	text-align: center;
+	margin-top: 28px;
+	margin: 0px 30px;
+}
+#stable {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 85px;
+	padding-bottom: 112px;
+	height: 625px;
+}
+#stable > div {
+	width: 470px;
+	margin-top: 53px;
+}
+#stable > ul {
+	width: 570px;
+	margin-top: 23px;
+}
+#stable > div h2 {
+	text-align: right;
+	font-size: 30px;
+	line-height: 60px;
+	color: #233148;
+	font-family: font2, sans-serif;
+}
+#stable > div p {
+	font-size: 14px;
+	color: #6a6d89;
+	line-height: 28px;
+	font-family: font3, sans-serif;
+	text-align: right;
+	margin-top: 36px;
+}
+#stable > div > div {
+	text-align: right;
+}
+#stable > div > div > a {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #33d2fd;
+	text-align: center;
+	margin-right: 6px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	font-family: font2, sans-serif;
+	margin-top: 55px;
+}
+#stable > ul li p {
+	display: none;
+	padding-left: 91px;
+	padding-right: 20px;
+	font-size: 14px;
+	line-height: 28px;
+	color: white;
+	font-family: font3, sans-serif;
+	margin-top: -15px;
+}
+#stable ul li {
+	margin-bottom: 20px;
+	box-shadow: 0px 6px 9px rgba(35,39,47,0.1);
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	background-position: 38px 21px;
+}
+#stable ul li a {
+	line-height: 75px;
+	font-size: 15px;
+	color: #233148;
+	font-family: font2, sans-serif;
+	margin-left: 91px;
+	width: 100%;
+	display: inline-block;
+}
+#stable ul li:nth-child(1)  {
+	background-image: url(../vibo_project/heath.png);
+}
+#stable ul li:nth-child(2)  {
+	background-image: url(../vibo_project/wth.png);
+}
+#stable ul li:nth-child(3)  {
+	background-image: url(../vibo_project/bag.png);
+}
+#stable ul li:nth-child(4)  {
+	background-image: url(../vibo_project/pen.png);
+}
+#stable ul li:hover {
+	background-color: #33d2fd;
+	padding-bottom: 25px;
+	padding-right: 	20px;
+}
+#stable ul li:hover p {
+	display: block;
+}
+#need {
+	background-color: #fafafc;
+	padding-top: 72px;
+	padding-bottom: 77px;
+	display: flex;
+	justify-content: space-between;
+}
+#need > img {
+	margin-left: 15px;
+}
+#need > div {
+	margin-top: 21px;
+	width: 470px;
+}
+#need > div h2 {
+	text-align: left;
+	font-size: 30px;
+	line-height: 60px;
+	color: #233148;
+	font-family: font2, sans-serif;
+}
+#need > div ul {
+	margin-top: 38px;
+}
+#need > div ul li a {
+	margin-left: 30px;
+	font-size: 15px;
+	color: #233148;
+	font-family: font2, sans-serif;
+	display: inline-block;
+}
+#need > div ul li {
+	background-repeat: no-repeat;
+	margin-bottom: 23px;
+}
+#need > div ul li:nth-child(1) {
+	background-image: url(../vibo_project/check.png);
+}
+#need > div ul li:nth-child(2) {
+	background-image: url(../vibo_project/check.png);
+}
+#need p {
+	font-size: 14px;
+	color: #6a6d89;
+	line-height: 28px;
+	font-family: font3, sans-serif;
+	margin-top: 35px;
+}
+#avaliable {
+	background-color: #0ed0f0; 
+	background-image: url(../vibo_project/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 761px;
+}
+#avaliable .container {
+	display: flex;
+	justify-content: space-between;
+}
+#avaliable .container > img {
+	margin-top: 109px;
+	margin-bottom: 94px;
+	margin-left: 180px;
+}
+#avaliable .container > div {
+	width: 570px;
+	margin-top: 278px;
+}
+#avaliable .container > div h2 {
+	text-align: left;
+	font-size: 30px;
+	line-height: 60px;
+	color: #233148;
+	font-family: font2, sans-serif;
+}
+#avaliable .container > div p {
+	font-size: 14px;
+	color: white;
+	line-height: 28px;
+	font-family: font3, sans-serif;
+	margin-top: 18px;
+}
+#avaliable .container > div ul {
+	display: flex;
+	margin-top: 60px;
+}
+#avaliable .container > div ul li {
+	margin: 0px 8px;
+}
+#getapp {
+	width: 370px;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	box-shadow: 0px 11px 29px rgba(255,7,95,0.2);
+	background-color: #ff075f;
+	margin: 0px auto;
+	margin-top: -35px
+}
+#getapp a {
+	display: block;
+	font-size: 20px;
+	color: white;
+	font-family: font2, sans-serif;
+	text-align: center;
+	border-radius: 3px;
+}
+#link {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 146px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+#link h3 {
+	font-size: 15px;
+	color: #233148;
+	line-height: 28px;
+	font-family: font2, sans-serif;
+}
+#link a {
+	font-size: 14px;
+	color: #6a6d89;
+	line-height: 28px;
+	font-family: font3, sans-serif;
+}
+#touch h2 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 60px;
+	color: #233148;
+	font-family: font2, sans-serif;
+	margin-top: 85px;
+}
+#touch p {
+	text-align: center;
+	font-size: 14px;
+	color: #6a6d89;
+	line-height: 28px;
+	font-family: font3, sans-serif;
+	margin-top: 13px;
+}
+form {
+	display: block;
+	text-align: center;
+	margin-top: 70px;
+}
+input[type=text] {
+	width: 570px;
+	height: 50px;
+	border: none;
+	background-color: #f6f7fb;
+}
+button[type=submit] {
+	width: 170px;
+	height: 50px;
+	border: none;
+	background-color: #33d2fd;
+	font-size: 15px;
+	color: #233148;
+	line-height: 50px;
+	font-family: font2, sans-serif;
+	border-radius: 3px;
+}
+footer {
+	height: 100px;
+	background-color: #233148;
+	margin-top: 86px;
+}
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	line-height: 100px;
+}
+footer .container p {
+	font-size: 14px;
+	color: white;
+	font-family: font3, sans-serif;
+}
+footer .container ul {
+	display: flex;
+	justify-content: space-between;
+}
+footer .container ul li a {
+	margin: 0px 27px;
+}
